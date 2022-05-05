@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      /* layer: default */
+      .grid {
+        display: grid;
+      }
+      .grid-cols-\[repeat\(6\,1fr\)\] {
+        grid-template-columns: repeat(6, 1fr);
+      }
+      .gap-4 {
+        grid-gap: 1rem;
+        gap: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Expected Output</h1>
+    <div class="grid gap-4 grid-cols-[repeat(6,1fr)]">
+      <div>ONE</div>
+      <div>TWO</div>
+      <div>THREE</div>
+      <div>FOUR</div>
+      <div>FIVE</div>
+      <div>SIX</div>
+    </div>
+  </body>
+</html>
